@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+<head>
+	<title>Tidder</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/favicon.png" sizes="32x32" type="image/png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<header>
+	<nav class="navbar navbar-inverse">
+		<div class="container">
+			
+		    <div class="navbar-header">
+		    	<!-- LOGO -->
+		    	<a href="#" alt="tidder - home" title="Home"><img id="logo" src="img/logo.png"></a>
+
+		    	<!-- SMARTPHONE -->
+				<button type="button" style="margin-top:25px" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu_lista" aria-expanded="false">
+					<span style="background-color:#35b8b0" class="icon-bar"></span>
+					<span style="background-color:#35b8b0" class="icon-bar"></span>
+					<span style="background-color:#35b8b0" class="icon-bar"></span>
+				</button>
+				
+		    </div>
+
+			<div class="collapse navbar-collapse" id="menu_lista">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="link_menu"><a href="?i=sobre">Sobre</a></li>
+					<li class="link_menu"><a href="?i=navegar">Navegar</a></li>
+					<li class="link_menu"><a href="?i=blast">BLAST</a></li>
+					<li class="link_menu"><a href="#help">Ajuda</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+</header>
+
+<div id="main">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5 col-xs-12">
+				<div id="meu_carrossel" class="carousel slide" data-ride="carousel">
+
+					<!-- PONTOS REPRESENTATIVOS DE IMAGENS -->
+					<ol class="carousel-indicators">
+    					<li data-target="#meu_carrossel" data-slide-to="0" class="active"></li>
+    					<li data-target="#meu_carrossel" data-slide-to="1"></li>
+						<li data-target="#meu_carrossel" data-slide-to="2"></li>
+						<li data-target="#meu_carrossel" data-slide-to="3"></li>
+  					</ol>
+
+					<!-- IMAGENS -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="img/slide1.png" class="img-thumbnail center" alt="...">
+							<div class="carousel-caption">
+								<strong>Redes sociais</strong> e negócios de todos os tipos, com engajamento entre empresa e público.
+							</div>
+						</div>
+					
+						<div class="item">
+							<img src="img/slide2.png" class="img-thumbnail"  alt="...">
+							<div class="carousel-caption">
+								Grandes plataformas conseguem oferecer uma seleção cada vez maior de produtos, tendo pequenos lojistas integrados. 
+							</div>
+						</div>
+
+						<div class="item">
+							<img src="img/slide3.png" class="img-thumbnail"  alt="...">
+							<div class="carousel-caption">
+								Permitir executar pagamentos e transferências sem sair do site da loja, ou fornecedor do serviço.
+							</div>
+						</div>
+
+						<div class="item">
+							<img src="img/slide4.png" class="img-thumbnail"  alt="...">
+							<div class="carousel-caption">
+								Permitem visualizar dados sobre topografia e geografia e ajudam a determinar previsões de clima.
+							</div>
+						</div>
+
+
+					</div>
+
+					<!-- CONTROLES -->
+					<a class="left carousel-control" href="#meu_carrossel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Anterior</span>
+					</a>
+					<a class="right carousel-control" href="#meu_carrossel" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Próximo</span>
+					</a>
+				</div>
+			</div>
+
+			<div class="col-md-7 col-xs-12">
+				<h1>O que significa API e como ela funciona!</h1>
+				<p>A API é um conjunto de definições e protocolos usado no desenvolvimento e na integração de software
+					de aplicações. API é um acrônimo em inglês que significa interface de programação de aplicações.
+					Com as APIs, sua solução ou serviço pode se comunicar com outros produtos e serviços sem precisar
+					saber como eles foram implementados. Isso simplifica o desenvolvimento de aplicações,
+					gerando economia de tempo e dinheiro. Ao desenvolver novas ferramentas e soluções 
+					(ou ao gerenciar aquelas já existentes), as APIs oferecem a flexibilidade necessária para simplificar
+					o design, a administração e o uso, além de fornecer oportunidades de inovação.
+
+			</p>
+				<p><a class="btn btn-primary btn-lg" href="#" role="button">Leia mais</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="middle">
+	<div class="container">
+
+		<div class="row"> 
+			<div class="col-sm-6 col-md-4"> 
+				<div class="thumbnail"> 
+					<img src="img/api1.png" class="img-thumbnail"> 
+
+					<div class="caption"> 
+						<h3>IBM WATSON</h3> 
+						<p>O Watson já cobre cerca de uma dúzia de APIs diferentes que ajudarão você a entender imagens, som e texto. 
+							Algumas dessas APIs são: a API de reconhecimento visual, a Tone Analyzer API e a API Explorer do Watson. 
+							Você insere seu conjunto de treinamento e, em seguida, a API aprende o suficiente para começar a responder perguntas.</p> 
+						<p><a href="https://www.ibm.com/watson" class="btn btn-primary" role="button">Saiba Mais</a> 
+					</div> 
+				</div> 
+			</div> 
+
+			<div class="col-sm-6 col-md-4"> 
+				<div class="thumbnail"> 
+					<img src="img/api2.png" class="img-thumbnail"> 
+					<div class="caption"> 
+						<h3>Immutable Azure Blob Storage</h3> 
+						<p>Gostaríamos de acreditar que nossos arquivos digitais oferecem provas de disputas legais e financeiras, mas isso só funciona se pudermos confiar nesses arquivos.Algo proporcionado pela “immutable blob storage API".</p> <p><a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-immutable-storage" class="btn btn-primary" role="button">Saiba Mais</a>
+					</div> 
+				</div> 
+			</div> 
+			
+			<div class="col-sm-6 col-md-4"> 
+				<div class="thumbnail"> 
+					<img src="img/api3.JPG" class="img-thumbnail"> 
+					<div class="caption"> 
+						<h3>BlazingText</h3> 
+						<p>O algoritmo BlazingText do Amazon SageMaker ajuda a compreender as palavras, marcando o texto com dados que descrevem como a palavra foi usada anteriormente. Você insere texto bruto e recupera um vetor de significado semântico e classificação de entidade que pode ser usado para análise de sentimento. Se você quiser mais poder computacional, os algoritmos podem rodar mais rápido em máquinas com múltiplos núcleos e GPUs.
+						</p> <p><a href="https://docs.aws.amazon.com/sagemaker/latest/dg/blazingtext.html" class="btn btn-primary" role="button">Saiba Mais</a>
+					</div> 
+				</div> 
+			</div> 
+		</div>
+	</div>
+</div>
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2"><a href="#"><img id="logo" src="img/logo.png"></a></div>
+			<div class="col-md-1 lista_footer"><a href="#">Sobre</a></div>
+			<div class="col-md-1 lista_footer"><a href="#">Navegar</a></div>
+			<div class="col-md-1 lista_footer"><a href="#">Buscar</a></div>
+			<div class="col-md-1 lista_footer"><a href="#">Ajuda</a></div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<p>© 2020 tidder | Todos os direitos reservados. Construido por <a href="https://github.com/ArthurCarvalho15/Tidder">Grupo dos Lambaris</a>.</p>
+			</div>
+		</div>
+	</div>
+	<!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</footer>
+</body>
+</html>
